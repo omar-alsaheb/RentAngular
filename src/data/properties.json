@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Family Apartment",
+    "price": 2000,
+    "imgSrc": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1026205392%2FBeautiful-luxury-home-exterior-at-twilight%2F960x0.jpg%3Ffit%3Dscale",
+    "type": "House",
+    "sellRent": 1
+  },
+  {
+    "id": 2,
+    "name": "Omar Apartment",
+    "price": 1000,
+    "imgSrc": "https://cdn.vox-cdn.com/thumbor/Mm6CUhDUTSd5NPTd6fcCpYxOTu4=/0x0:3000x2000/920x613/filters:focal(1260x760:1740x1240):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/65890203/iStock_1067331614.7.jpg",
+    "type": "House",
+    "sellRent": 2
+  },
+  {
+    "id": 3,
+    "name": "Sami Apartment",
+    "price": 3000,
+    "imgSrc": "https://static.dezeen.com/uploads/2020/02/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_hero.jpg",
+    "type": "Villa",
+    "sellRent": 1
+  },
+  {
+    "id": 4,
+    "name": "Khaled Apartment",
+    "price": 2000,
+    "imgSrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/suburban-house-royalty-free-image-1584972559.jpg",
+    "type": "Apartment",
+    "sellRent": 2
+  },
+  {
+    "id": 5,
+    "name": "Family Apartment",
+    "price": 55000,
+    "type": "House",
+    "sellRent": 1
+  },
+  {
+    "id": 6,
+    "name": "Family Apartment",
+    "price": 7000,
+    "imgSrc": "https://htmlguru.net/house-rent/assets/images/apartment/apartment-five.png",
+    "type": "House",
+    "sellRent": 1
+  }
+]

@@ -1,0 +1,104 @@
+.apartments-content .image-content {
+  overflow: hidden;
+  clear: both;
+  border-radius: 5px;
+  margin-top: 14px;
+  position: relative;
+}
+
+.apartments-content img {
+  width: 100%;
+}
+
+.apartments-content .text-content .top-content {
+  border: 1px solid #E4E4E4;
+  padding: 0px 20px 20px;
+  margin-top: -3px;
+}
+
+.apartments-content .text-content h3 {
+  font-weight: 800;
+  color: #292928;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.apartments-content .text-content .top-content span {
+  font-size: 14px;
+  color: #9d9d9d;
+  font-weight: 500;
+}
+
+.apartments-content .text-content .top-content span i {
+  font-size: 20px;
+  color: #9d9d9d;
+  margin-right: 5px;
+}
+
+.apartments-content .text-content .bottom-content {
+  padding: 20px 20px 20px;
+  font-size: 13px;
+  color: #9d9d9d;
+  font-weight: 500;
+  border: 1px solid #E4E4E4;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.apartments-area .apartments-content .text-content .bottom-content .meta-bed-room {
+  margin-right: 14px;
+}
+
+.apartments-content .text-content .bottom-content>div i {
+  margin-right: 5px;
+}
+
+.apartments-content .text-content .bottom-content>div {
+  display: inline-block;
+}
+
+.apartments-content .text-content .bottom-content>div i {
+  margin-right: 5px;
+}
+
+.apartments-content .text-content .bottom-content .rent-price {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.apartments-content .text-content .bottom-content .share-meta {
+  font-size: 18px;
+}
+
+.img-fluid.custm-image {
+  height: 229px;
+  object-fit: cover;
+}
+
+.meta-bed-room {
+  margin-right: 17px;
+}
+
+.two-icons {
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s all;
+
+}
+
+.apartments-content:hover .two-icons {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.two-icons i {
+  margin: 5px;
+}

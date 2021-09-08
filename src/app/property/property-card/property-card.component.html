@@ -1,0 +1,39 @@
+<div class="apartments-content">
+  <div class="image-content">
+    <a><img src="{{prop.imgSrc}}" class="img-fluid custm-image" alt="apartment" *ngIf="prop.imgSrc"></a>
+    <a><img src="https://icon-library.com/images/home-menu-icon/home-menu-icon-3.jpg" class="img-fluid custm-image" alt="apartment" *ngIf="!prop.imgSrc"></a>
+
+
+    <div class="two-icons">
+      <a> <i class="fas fa-edit"></i></a>
+      <a routerLink="/property-detail/{{prop.id}}"> <i class="fas fa-house-user"></i></a>
+
+
+    </div>
+  </div><!-- /.image-content -->
+
+  <div class="text-content">
+    <div class="top-content">
+      <h3 class="pt-4"><a>{{prop.name}}</a></h3>
+
+      <span>
+        <i class="fa fa-map-marker"></i>
+        Dhanmondi, Dhaka
+      </span>
+    </div><!-- /.top-content -->
+    <div class="bottom-content clearfix">
+      <div class="meta-bed-room">
+        <i class="fa fa-bed"></i> 3 Bedrooms
+      </div>
+      <div class="meta-bath-room">
+        <i class="fa fa-bath"></i>2 Bathroom
+      </div>
+      <span class="clearfix"></span>
+      <div class="rent-price pull-left">
+        <i class="fas fa-dollar-sign"></i> {{prop.price}}
+      </div>
+
+    </div><!-- /.bottom-content -->
+  </div><!-- /.text-content -->
+
+</div>
