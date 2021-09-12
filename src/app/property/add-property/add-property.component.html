@@ -1,2 +1,28 @@
-<p>add-property works!</p>
+<div class="card mt-5 mb-5">
+  <div class="card-header">
+    Add new Property
+  </div>
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit(Form)" #Form="ngForm" >
+      <div class="form-group col-md-12">
+        <label for="type">Name</label>
+        <input type="text" name="name" ngModel id="" class='form-control' required #propName="ngModel">
+        <div class="mt-2 alert alert-danger" role="alert" *ngIf="!propName.valid && propName.touched">
+          plz enter the name
+        </div>
+      </div>
+      <div class="form-group col-md-12">
+        <label for="type">type</label>
+        <input type="text" name="type" id="" class='form-control' ngModel>
+      </div>
+      <div class="form-group col-md-12">
+        <label for="price">Price</label>
+        <input type="text" name="price" id="" class='form-control' ngModel>
+      </div>
+      <div class="form-group col-md-12">
+       <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </form>
+  </div>
+</div>
 <button type="button" class="btn btn-primary" (click)="BackHome()">Back Home</button>
